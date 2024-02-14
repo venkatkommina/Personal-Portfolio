@@ -1,0 +1,215 @@
+.navbar ul{
+    position: relative;
+    left: 58%;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+@media(max-width: 991px)
+{
+    .navbar-brand{
+        padding: 0 2rem 0 1rem;
+    }
+}
+
+.navbar a{
+    text-transform: uppercase;
+}
+
+.Navbar.navbar{
+    padding: 1rem 20rem;
+}
+
+.nav-link{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+}
+
+.active{
+    background-image: linear-gradient(43deg,#8ad536 0%,#61aa24 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar-nav a:hover{
+    background-image: linear-gradient(43deg,#8ad536 0%,#61aa24 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hey{
+    font-size: xx-large;
+}
+
+.btn{
+    color: black;
+}
+
+.btn-dark{
+    font-weight: 600;
+    background-image: linear-gradient(43deg,#8ad536 0%,#61aa24 100%);
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    background-clip: text;
+    background-clip:padding-box;
+    color: white;
+    transition: background .5s ease;
+    border: 1.5px solid gray;
+}
+
+.btn-dark:hover{
+    background: white;
+    background-clip:padding-box;
+    color: #61aa24;
+    border: 1.5px solid #61aa24;
+    /* color: whitesmke; */
+    /* transition: background .6s ease; */
+}
+
+.btn-outline-dark{
+    font-weight: 600;
+    color: #61aa24;
+    border: 1.5px solid #61aa24;
+}
+
+.btn-outline-dark:hover{
+    font-weight: 600;
+    background-image: linear-gradient(43deg,#8ad536 0%,#61aa24 100%);
+    color: whitesmoke;
+    border: 1.5px solid gray;
+}
+
+.about-me{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ab-me{
+    
+    letter-spacing: 5px;
+}
+
+ .services-area{
+    padding: 7rem 2rem;
+}
+
+ .services-area .services-title{
+    padding: 0 14rem;
+}
+
+ .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.services{
+    /* gap: 10px; */
+    /* grid-column-start: 2; */
+    background: #e6ffaf26;
+    border-radius: 24px;
+    padding: 2rem 5rem;
+    width: auto;
+    margin: 2rem 0;
+    transition: box-shadow .7s ease;
+}
+
+.services:hover{
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+}
+
+.link-custom{
+    text-decoration: none;
+    color: black;
+}
+
+.bg-base {
+    background-color: #d0ff6a26;
+}
+
+.shadow-effect{
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover{
+    box-shadow: -6px 6px 0px 0px #D6FF76;
+}
+
+.link-custom {
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.link-custom::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    color: #D6FF76;
+    background-color: #D6FF76;
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+}
+
+.link-custom:hover::after {
+    width: 100%;
+}
+
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
+}
+
+@media(width>=992px){
+    .fl{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+#contact .form-control:focus {
+    border-color: #D6FF76;
+    box-shadow: none;
+}
+
+#contact input.form-control {
+    height: 44px;
+}
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(./assets/body-bg-fotor-2024011917341.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px "Poppins", sans-serif;
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    /* color: ; */
+}
+
+footer.footer-area .social a:hover > i{
+    color: #8ad536;
+}
+
